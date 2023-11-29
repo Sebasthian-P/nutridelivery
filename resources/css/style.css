@@ -176,6 +176,10 @@ header {
     z-index: 100;
 }
 
+#navbar__right #basket__icon {
+    margin-right: 10px;
+}
+
 #navbar__right i {
     cursor: pointer;
 }
@@ -646,4 +650,11 @@ mgreen {
 }
 
 
+.header__shop {
+    height: 100%;
+}
 
+
+.section__products__shop {
+    height: auto;
+}
