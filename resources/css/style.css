@@ -377,6 +377,7 @@ header {
 
 #section__products .product__image {
     border-radius: 20px;
+    height: 60%;
 }
 
 #section__products .product__description {
