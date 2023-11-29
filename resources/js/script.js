@@ -14,22 +14,22 @@ let form = document.getElementById('form');
 const openMenu = () => {
     menu.style.transform = 'translateX(0%)';
     menu.style.transform = 'translateX(0%)';
-    document.body.style.overflow = 'hidden';
 }
 
 const closeMenu = () => {
     menu.style.transform = '';
-    document.body.style.overflow = 'visible';
 }
 
 const closeForm = () => {
     form.style.transform = 'translate(1400px)';
     form.style.zIndex = '';
+    document.body.style.overflowX = 'hidden';
 }
 
 const openForm = () => {
     form.style.transform = 'translate(0)';
     form.style.zIndex = '10000';
+    document.body.style.overflow = 'visible';
 }
 
 openBtn.onclick = openMenu;

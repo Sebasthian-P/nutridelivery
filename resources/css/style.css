@@ -24,6 +24,7 @@ html {
 
 body {
     background-color: var(--color-bg-green);
+    overflow-x: hidden;
 }
 
 li {
