@@ -242,7 +242,7 @@ header {
 #banner__right {
     width: 55%;
     height: 100%;
-    background-image: url("./resources/images/backgrounds/banner_img.png");
+    background-image: url("../images/backgrounds/banner_img.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -531,11 +531,11 @@ mgreen {
 }
 
 #section__services .card__socio {
-    background-image: url("./resources/images/backgrounds/bg_socio.png");
+    background-image: url("../images/backgrounds/bg_socio.png");
 }
 
 #section__services .card__rider {
-    background-image: url("./resources/images/backgrounds/bg_rider.png");
+    background-image: url("../images/backgrounds/bg_rider.png");
 }
 
 .bg__black {
